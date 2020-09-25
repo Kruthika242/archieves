@@ -98,7 +98,7 @@ public class PolicyMain {
 			 }
 		// To delete Policy Holder using Policy Number
 		case 4 : {
-			System.out.println("Enter PolicyNumber to Delete holder");
+			System.out.println("Enter PolicyNumber to Delete Policy holder");
 			obj.setPolicyNumber(scan.nextInt());
 		       
 	        int src = policyObj.deleteHolder(obj);
